@@ -1,0 +1,28 @@
+Q. How did viewing a diff betwen two version of a file help you see the bug that was introduced?
+A  This is cool way to teaching , I really like the setup and learnt a few things. The diff is particularly help
+because it pins points the what has changed and also can roll back to the orginal change. very help i would say.
+
+Q. How could having easy access to the entire  history of a file make you a more efficient programmer in the long term?
+A. This will help me go back the last working or last production release. and basline and create a new 
+feature or if something goes i can go back to the right version
+
+Q. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+ vs having versions automatically saved, like Google Docs does?
+ A. Advantage: you know what is the version for rather than debug and find out
+ Disadvantage: might loose the change made when system is inactive or some one has overwritten the file
+ advantage : no two person can work .. it will lock the file can be disadvantange too
+
+ Q. Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+ while others, like Google Docs, treat each file separately?
+A. to track changes related to one bug which may be across different files. so it better to track them as
+one change rather than 3 changes to 3 files which would be difficult to track
+
+Q. How can you use the commands git log and git diff to view the history of files?
+A. note to self is use the latest one to the end and first one to the first.. git diff.. lastbutonecomit lastcomit
+git log is easy , but need to understand search terms and pagination - grep and tail or something like that needs to be userd
+git diff is easy one to  just use git diff commitid1 and commitid2
+
+Q.How might using version control make you more confident to make changes that could break something?
+Version control makes me more confident of going back to a stable version so that which is tested and everything is deemed to be 
+working fine. we make 100 changes and still throw away and go back to the orginal version without brothering to look what were the
+changes
