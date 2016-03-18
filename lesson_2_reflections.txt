@@ -1,0 +1,46 @@
+What happens when you initialize a repository? Why do you need to do it?
+It will create a .git file and it is ready to be version controlled. but it is not committed yet, so all
+changes you make will still be considered as single state
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area is different because you can pick and chose what files needs to be commited, there might say 2 dev working on 
+same environment , but there files are not ready to check, then working directory will show all files, but staging area
+we can push only the files that dev1 is working on , so that we control what we are doing
+
+How can you use the staging area to make sure you have one commit per logical change?
+User git status and git diff and git --staged , we can make sure that git status to know what is in staged
+what changes you want to change to happen, what changes were made in working to staged in git diff
+without any arguments, with arugments will search for it git diff --staged is latest commit to staging area
+if you want to reset all changes in use git reset -- hard.. be carefull that will delete all code you are currently working on
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches are really helpful in keeping history , we move and do whatever we want or say that there are two dev working on same file
+we can create branches and each one can work on each thing, and still have the main branch ready for bug fixes or new code
+we do experimental feature or more change entire feature and see how ti looks like many more advtanges
+beta version is brannch!!, working or bored nand then change it new things
+
+How do the diagrams help you visualize the branch structure?
+diagrams are very help full, the commit line and merge line are difficult to gauge but looking at the diagram
+ auser can instally know where he is what action he take, we can also know that if there any detached head commit
+ but we will never be able to make get to those commints
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the result is we get two new feature and have single branhc again where user can branch out and work again without
+having ot wait till the end. but now we are ready to go production with changes made and developer cna keep working 
+in the his own branch and make new features. it is easy for me to learn and visual where am i and what was the order of 
+commits and where was commints and change of the commits inorder
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros and cons ahh... pros are it is quick but dirty, it can have two same functions which can operate on a same thing
+but different name then git will auto merge. so user has be careful when merging or bugs will come up. but that does not mean
+the pro is quick , it merges very quick you can always go back do diff you want to see the difference, if you merging maunally
+it will take lot of time to understand what has change where was changed
+
+
+
+
+
+
+
+
+
