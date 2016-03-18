@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+so that i can use different computers, , collaborate with others and working anywhere without any issues. also if the it gets lost or sytem crashed 
+then we can have backup
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+it is same as wwhen to commit rahter than commit automatically, we need to have user decide when to upload  and when not 
+to upload , this is to user uploaded
+
