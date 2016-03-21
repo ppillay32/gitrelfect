@@ -6,3 +6,21 @@ Why might you want to always pull changes manually rather than having Git automa
 it is same as wwhen to commit rahter than commit automatically, we need to have user decide when to upload  and when not 
 to upload , this is to user uploaded
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+fork is clone but in github only, fork will have trail fromwhere it came from . clone is from git hub from
+local repository and branches are in a single repository it can be in cloud or local
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is that if i some one new made a change that i was looking into i can see what they have made 
+it will we easy to collobate and work and get the latest copy of ht eworking software or workign changes
+this will make my push without conflicts or i an see what is the conflicts and work onit
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+it would be easier to picture but harder to understand and do it using manually, and all changes could be lost
+if we have done soemthing wrong somewhere, so  it is better to use git and git hub if you are collaborating it 
+git is very useful, git hub is extension of git so it depends if we can use it or not but storing something in clould or 
+single point is very useful while collobrartion
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+branch is need to make sure that whatever changes your aremaking does not impact orginal and some one can take look at your code before merging into main branch this way we can be sure that main branch does not have any issues ,
